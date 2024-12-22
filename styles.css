@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+main {
+  display: grid;
+  place-content: center;
+  gap: 8rem;
+  padding: 10rem 0;
+}
+
+.vimeo-wrapper-square {
+  max-width: 520px;
+  display: grid;
+  place-content: center;
+  max-height: 800px;
+  margin: 0 auto;
+  iframe {
+    max-width: 520px;
+  }
+}
+
+.vimeo-wrapper-rectangle {
+  max-width: 520px;
+  display: grid;
+  place-content: center;
+  max-height: 1200px;
+  margin: 0 auto;
+  iframe {
+    max-width: 520px;
+  }
+}
